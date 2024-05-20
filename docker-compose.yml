@@ -9,7 +9,7 @@ services:
     environment:
       # VERY COMMON NEED ENVIRONMENT VARIABLE
       - HSA_OVERRIDE_GFX_VERSION=10.3.4
-    image: 1naforever/stable-diffusion-rocm:latest
+    image: l1naforever/stable-diffusion-rocm:latest
     ipc: host
     network_mode: "host"
     security_opt:
